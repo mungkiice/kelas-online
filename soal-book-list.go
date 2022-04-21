@@ -18,7 +18,7 @@ func Construct(time int64, alice bool, bob bool) Book {
 	}
 }
 
-func main() {
+func test() {
 	totalChosen := 4
 	listBook := []Book{
 		Construct(7, true, true),
